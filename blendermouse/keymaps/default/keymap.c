@@ -20,8 +20,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
     [1] = LAYOUT_ortho_4x12(
         KC_PSCR, KC_1,    KC_2,    KC_3,             KC_4,           KC_5,             KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_BSPC,
-        KC_X,    KC_X,    KC_X,    KC_X,             LGUI(KC_UP),    KC_X,             KC_MINS, KC_EQL,  KC_LBRC, KC_RBRC,          KC_SCLN,
-        KC_LSFT, KC_X,    KC_X,    LGUI(KC_LEFT),    LGUI(KC_DOWN),  LGUI(KC_RGHT),    KC_DOT,  KC_PAST, KC_QUOT, KC_GRV,  KC_BSLS, KC_X,
+        KC_X,    KC_X,    KC_X,    KC_X,             LGUI(KC_UP),    KC_X,             KC_SCLN, KC_MINS, KC_EQL,  KC_LBRC,          KC_RBRC,          
+        KC_LSFT, KC_X,    KC_X,    LGUI(KC_LEFT),    LGUI(KC_DOWN),  LGUI(KC_RGHT),    KC_X,    KC_DOT,  KC_PAST, KC_QUOT, KC_GRV,  KC_BSLS, 
                  KC_LCTL, KC_LALT,                   KC_X,           KC_X,             KC_X,             KC_X,    KC_X   
     ),
     [2] = LAYOUT_ortho_4x12(
